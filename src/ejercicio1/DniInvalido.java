@@ -11,7 +11,7 @@ public class DniInvalido extends IOException {
 
 	@Override
 	public String getMessage() {
-		return "Error - El DNI solo puede contener ";
+		return "Error - El DNI solo puede contener numeros ";
 	}
 	
 }
